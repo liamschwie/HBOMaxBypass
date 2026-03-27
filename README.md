@@ -8,8 +8,6 @@ When HBO Max launches, it fetches feature flags from `discomax.com/labs/api/v1/s
 
 HBOMaxBypass intercepts this API response and sets `maxVersion` to `0.0.0`, meaning no app version will ever trigger the force upgrade. It also spoofs `UIDevice.systemVersion` to `16.4` in case the app checks the iOS version locally.
 
-This approach is inherently **future-proof** — even if HBO changes the `maxVersion` value on their servers, the tweak will always override it to `0.0.0`.
-
 ## Compatible Versions
 
 HBOMaxBypass has been tested with the last app version that supports iOS 16.2. To find and install a compatible version:
