@@ -51,12 +51,6 @@ The tweak hooks two things:
 
 2. **`NSURLSession dataTaskWithRequest:completionHandler:`** — Intercepts responses from the feature flags API endpoint. When the response contains the `force-upgrade` flag, it uses a regex to replace `"maxVersion":"<any-value>"` with `"maxVersion":"0.0.0"` before the app processes it.
 
-### What could break it
-
-- HBO renames the `force-upgrade` key in their feature flags → **unlikely**, would break their own clients
-- HBO changes the API endpoint URL away from `feature-flags` → **unlikely**, same reason
-- HBO switches to certificate pinning that blocks response modification → **possible** but the tweak operates at the NSURLSession level, not as a proxy, so standard pinning wouldn't affect it
-
 ## Requirements
 
 - Jailbroken iOS device (iOS 15.0+)
