@@ -1,0 +1,9 @@
+Package: com.liam.hbomaxbypass
+Name: HBO Max Force Upgrade Bypass
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Bypasses the HBO Max force upgrade screen on older iOS versions by modifying the feature flags API response and spoofing iOS version to 16.4.
+Maintainer: Liam
+Author: Liam
+Section: Tweaks
