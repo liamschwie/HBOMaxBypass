@@ -54,7 +54,6 @@ The tweak hooks two things:
 ## Requirements
 
 - Jailbroken iOS device (iOS 15.0+)
-- Rootless jailbreak (Dopamine, palera1n, etc.) — or modify Makefile for rootful
 - A compatible version of the HBO Max app installed via `ideviceinstaller` or the App Store
 
 ## License
