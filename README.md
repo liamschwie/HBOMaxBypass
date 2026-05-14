@@ -36,7 +36,7 @@ The tweak should work with any older version of the app that can launch on your 
 Requires [Theos](https://theos.dev/docs/installation).
 
 ```bash
-git clone https://github.com/<your-username>/HBOMaxBypass.git
+git clone https://github.com/liamschwie/HBOMaxBypass.git
 cd HBOMaxBypass
 make package
 ```
