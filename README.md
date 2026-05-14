@@ -53,7 +53,7 @@ The tweak hooks two things:
 
 ## Requirements
 
-- Jailbroken iOS device (iOS 15.0+)
+- Jailbroken iOS device
 - A compatible version of the HBO Max app installed via `ideviceinstaller` or the App Store
 
 ## License
