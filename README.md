@@ -1,6 +1,6 @@
 # HBOMaxBypass
 
-A jailbreak tweak to bypass the forced upgrade screen in the HBO Max (Max) app on older iOS versions.
+A jailbreak tweak to bypass the forced upgrade screen in the HBO Max app on older iOS versions.
 
 ## How It Works
 
